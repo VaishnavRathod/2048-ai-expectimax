@@ -1,58 +1,41 @@
-2048 AI — Expectimax-Based Decision Making
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 2048 AI — Expectimax Decision Making
 
-An AI-powered 2048 game that uses stochastic
-Expectimax search and heuristic evaluation to
-select moves under uncertainty.
+AI-powered 2048 implementation using stochastic
+Expectimax search and heuristic board evaluation.
 
-## Gameplay
+## 🎮 Gameplay
 
-![2048 Gameplay](assets/screenshots/gameplay.png)
+![Gameplay](assets/screenshots/gameplay.png)
 
+## 🤖 AI Recommendation
 
-Features
-━━━━━━━━
+The AI analyzes the current board and recommends
+the move with the highest expected evaluation.
 
-✓ Playable 2048 implementation. 
-✓ AI move recommendation. 
-✓ Expectimax search. 
-✓ Stochastic tile modeling. 
-✓ Heuristic board evaluation. 
-✓ Search-depth benchmarking. 
-✓ Statistical analysis. 
-✓ Performance visualization. 
-
-Architecture
-━━━━━━━━━━━━
-
-Game → Simulator → Expectimax → Evaluation → Best Move
-
-Mathematical Model
-━━━━━━━━━━━━━━━━━
+## + - Mathematical Model
 
 H(s) = w₁E(s) + w₂M(s) + w₃S(s) + w₄T(s) + w₅C(s)
 
-Experiments
-━━━━━━━━━━
+## 🧠 AI Architecture
 
-[GRAPH]
+Game State
+→ Simulator
+→ Expectimax
+→ Heuristic Evaluation
+→ Best Move
 
-Search depth vs performance
+## 📊 Experimental Results
 
-[GRAPH]
+![Average Score](experiments/plots/average_score_vs_depth.png)
 
-Search depth vs computation time
-
-Results
-━━━━━━━━
+## Results: 
 
 Depth 3 currently provides the best observed
 performance in the benchmark configuration,
 while deeper search introduces substantially
 higher computational cost.
 
-Future Work
-━━━━━━━━━━
+## Future Work: 
 
 → Heuristic weight optimization
 → Monte Carlo Tree Search
