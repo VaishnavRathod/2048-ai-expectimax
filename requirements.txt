@@ -1,0 +1,3 @@
+# Libraries to be installed :
+1. pygame
+2. matplotlib
