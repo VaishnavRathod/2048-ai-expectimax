@@ -3,7 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+gameai/ 
+
 # Virtual environments
+gameai/
 .venv/
 venv/
 env/
