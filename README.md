@@ -5,7 +5,10 @@ An AI-powered 2048 game that uses stochastic
 Expectimax search and heuristic evaluation to
 select moves under uncertainty.
 
-[GAMEPLAY IMAGE]
+## Gameplay
+
+![2048 Gameplay](assets/screenshots/gameplay.png)
+
 
 Features
 ━━━━━━━━
